@@ -1,0 +1,27 @@
+.divButton{
+    width:250px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #242424;
+    border: solid 3px #000000;
+    border-radius: 15px;
+}
+
+.button {
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: #696868;
+    border: solid 3px #000000;
+    border-radius: 15px;
+    cursor: pointer;
+}
