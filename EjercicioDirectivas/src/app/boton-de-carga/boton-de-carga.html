@@ -1,0 +1,15 @@
+<button (click)="cargarLista()"> {{boton}}</button>
+
+<hr>
+
+<ul>
+    @if(lista==='Exito'){
+        @for(videoJuego of videojuegos; track videoJuego){
+            <li>{{ videoJuego }}</li>
+        }
+    }@else{
+        <h1>No hay datos cargados...</h1>
+    }
+</ul>
+<hr>
+<h1>{{ lista }}</h1>
